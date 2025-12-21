@@ -1,10 +1,10 @@
-# 🛒 Workshop Spring Boot 3 + JPA/Hibernate
+# 🛒 Workshop Spring Boot 4 + JPA/Hibernate
 
 [![Java](https://img.shields.io/badge/Java-17+-orange)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.5-brightgreen)](https://spring.io/projects/spring-boot)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-Complete RESTful e-commerce API developed during Prof. Nelio Alves' course, using Spring Boot 3, JPA/Hibernate and layered architecture.
+Complete RESTful e-commerce API developed during Prof. Nelio Alves' course, using Spring Boot 4, JPA/Hibernate and layered architecture.
 
 ## 📌 Features
 
@@ -39,9 +39,9 @@ Complete RESTful e-commerce API developed during Prof. Nelio Alves' course, usin
 ### Local with H2 (test)
 ```bash
 # Clone the project
-git clone https://github.com/carloseduardo-rocha/workshop-springboot3-jpa.git
+git clone https://github.com/carloseduardo-rocha/workshop-springboot4-jpa.git
 
-cd workshop-springboot3-jpa
+cd workshop-springboot4-jpa
 
 # Run the application
 mvn spring-boot:run -Dspring.profiles.active=test
@@ -141,8 +141,8 @@ docker-compose up -d
 
 ## 🛠️ Technologies Used
 
-- **Backend**: Spring Boot 3, Spring Data JPA, Spring Web
-- **Database**: H2 (test), PostgreSQL (production)
+- **Backend**: Spring Boot 4, Spring Data JPA, Spring Web
+- **Database**: H2 (test), PostgreSQL (Basic)
 - **Tools**: Maven, Docker, Postman
 - **Patterns**: REST, Layered Architecture, Exception Handling
 
@@ -170,11 +170,11 @@ src/
 <h3><strong>Carlos Eduardo Rocha</strong></h3>
 <p>Backend Developer | Java | Spring Boot</p>
 
-<a href="https://linkedin.com/in/carlos-eduardo-408087230">
+<a href="https://linkedin.com/in/carlos-eduardo-408087230" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://github.com/carloseduardo-rocha">
+<a href="https://github.com/carloseduardo-rocha" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -197,5 +197,3 @@ src/
 </a>
 
 </div>
-
----
